@@ -1,6 +1,6 @@
 /*---- Common ----*/
-body{
-  font-family: 'Mitr', sans-serif;
+body {
+  font-family: "Mitr", sans-serif;
 }
 
 .section-title {
@@ -9,45 +9,42 @@ body{
   margin-bottom: 24px;
 }
 
-
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0px auto;
 }
 
-
 .section {
   margin-bottom: 64px;
 }
 
-
-
 /*---- Menu ----*/
-.logo{
+.logo {
   height: 20px;
 }
 
-.menu-bar{
+.menu-bar {
   height: 72px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
-.nav-list{
+.nav-list {
   display: flex;
 }
 
-.nav-item{
+.nav-item {
   margin-left: 24px;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
   color: gray;
-  
 }
-
 
 /*---- Hero Section ----*/
 .hero-section {
@@ -98,25 +95,67 @@ body{
 }
 
 /*---- Product Section ----*/
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px -30px;
+}
+
+.product-item {
+  width: calc(100% / 3);
+  /* margin-left: -16px; */
+  margin-bottom: 16px;
+  padding: 0px 16px;
+  height: 400px;
+  position: relative;
+  box-sizing: border-box;
+}
+
 .product-item-title {
+  /* width: calc(100% / 3); */
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
-.product-item-image{
-  width: calc(100% / 3);
+.product-item-image {
+  width: 100%;
   margin-bottom: 12px;
-  border-radius: 18px
+  border-radius: 18px;
+  height: 60%;
 }
 
-.product-item{
-  font-size: 18px;
+.product-label {
+  background-color: #f87060;
+  color: white;
   font-weight: 600;
-  margin-bottom: 16px;
+  border-radius: 8px;
+  padding: 12px;
+  width: fit-content;
+  top: 24px;
+  left: 8px;
+  position:absolute;
 }
 
-.price{
+.price {
   margin-top: 24px;
 }
 /*---- About Section ----*/
+
+.about-content {
+  display: flex;
+}
+
+.about-image {
+  width: 50%;
+  object-fit: cover;
+  margin-right: 24px;
+}
+
+.about-info {
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}

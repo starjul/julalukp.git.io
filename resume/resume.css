@@ -1,0 +1,9 @@
+body {
+    font-family: "Mitr", sans-serif;
+  }
+
+.nav-bg{
+    /* background-color: rgba(255, 255, 255, 0.85); */
+    background-color: rgb(255 246 246 / 22%);
+    backdrop-filter: blur(10px);
+}
