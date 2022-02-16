@@ -23,6 +23,14 @@ body {
     justify-content: space-between;
 }
 
+.alitems-center{
+    align-items: center;
+}
+
+.w60{
+    width: 60%;
+}
+
 /* nav-container */
 .wh-logo {
     height: 50px;
@@ -148,14 +156,6 @@ body {
     z-index: -1;
 /* } */
 
-.circular-square {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    align-self: center;
-    margin-left: 30px;
-}
-
 /* div.d-flex .f-col {
     width: 100%;
 }
@@ -163,6 +163,14 @@ body {
 h1.r-container {
     margin-bottom: 5px;
 } */
+
+.circular-square {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 30px;
+}
 
 .dash-con {
     /* width: 100%; */
@@ -186,4 +194,59 @@ h1.r-container {
     height: auto;
     margin: 4px;
     z-index: -1;
+    padding: 20px 20px 20px 20px;
+}
+
+.add-button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 10%;
+    justify-content: center;
+}
+
+.add-button p{
+    font-size: 1rem;
+}
+
+.tt-acti{
+    width: 80%;
+    margin-right: 20px;
+}
+
+.circle-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-self: center;
+    
+}
+
+/* activity history card */
+.acti-card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+.acti-pic{
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.title-acti{
+    width: 20%;
+}
+
+
+.acti-data{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20;
+
 }
