@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <h1 id="my-name">My name is</h1>
     <button id="ask-name" onclick="askMyName()">Ask My Name</button>
     <button id="hello" onclick="helloWorld()">Hello World</button>
+    <button id="" onclick="calAge()">ทำนายดวง</button>
+    <br />
+    <br />
+    <hr />
+    <br>
+    <h2>About</h2>
+    <div class="d-flex data">
+      <p>
+        <strong>Name: </strong>
+      </p>
+      <p id="fname"></p>
+    </div>
+    <div class="d-flex data">
+      <strong>Province: </strong>
+      <p id="my-province"></p>
+    </div>
+    <button onclick="loadProfile()">Load Profile</button>
+
     <script src="./julaluk.js"></script>
+
+    <h2></h2>
   </body>
 </html>
