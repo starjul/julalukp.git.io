@@ -52,7 +52,7 @@ console.log(wellcomeFunction("AA", 12, "Pa", 14, "QQ", 13))
 const isPass = (point) => {
   point = Number(point);
   if (point > 11 || point < 0) {
-    return "oop somethink wrong"
+    return "oop something wrong"
   }
   else if(point < 5){
     return "False"
@@ -68,3 +68,50 @@ const isPass = (point) => {
 }}
 
 console.log(isPass(5))
+
+
+const printGroupname = (groupNo) => {
+  groupNo = Number(groupNo);
+  let groupName;
+  if (groupNo == 1){
+    groupName = "Pokkie"
+  }
+  else if (groupNo == 2){
+    groupName = "ปาท่องโก๋"
+  }
+  else if (groupNo == 3){
+    groupName = "ติวกระตุกจิต"
+  }
+  else if (groupNo == 4){
+    groupName = "สี่ไม่ซี้"
+  }
+  else if (groupNo == 5){
+    groupName = "Laugh Tale"
+  }
+  else if (groupNo == 6){
+    groupName = "ซาตาน"
+  }
+  else if (groupNo == 7){
+    groupName = "สายลับเจมส์บอน"
+  }
+  else if (groupNo == 8){
+    groupName = "Infinity"
+  }
+  else if (groupNo == 10){
+    groupName = "Ben Ten"
+  }
+  else if (groupNo == 11){
+    groupName = "เต้าหู้"
+  }
+  else if (groupNo == 12) {
+    groupName = "แป้งเย็น"
+  }
+  else{
+    groupName = "oop something wrong"
+  }
+  console.log(`Your group name = ${groupName}` )
+}
+
+printGroupname(2)
+printGroupname(12)
+printGroupname(9)
