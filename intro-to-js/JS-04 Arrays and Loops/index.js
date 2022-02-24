@@ -89,7 +89,7 @@ const printNBrackets = (n) => {
     let print = '';
     while (i < n){
         i++
-        print = print + `[${i}]`
+        print += `[${i}]`
     }
     console.log(print)
 }
